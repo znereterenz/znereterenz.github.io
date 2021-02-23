@@ -1,0 +1,65 @@
+body {
+  background-image: url("80sneon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "press start 2p", cursive;
+}
+.name {
+  font-size: 20px;
+  color: white;
+  font-family: "press Start 2P", cursive;
+  padding-top: 50px;
+}
+.button {
+background: #D60DAD;
+border: 3px solid #ffffff;
+border-radius: 1000px;
+padding: 20px 45px;
+color: white;
+display: inline-block;
+font-family: "press start 2p", cursive;
+text-align: center;
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  color: #ffdbc5;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "press start 2p", cursive;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav a.active {
+  background-color: #D60DAD;
+}
+.funnygif {
+  text-align: center;
+  padding-top: 30px;
+  width: 45%;
+  background: #D60DAD;
+  border: 3px solid #ffffff;
+  border-radius: 1000px;
+  padding: 10px 30px;
+  color: white;
+
+}
+.rights {
+  padding-top: 80px;
+  color: white;
+}

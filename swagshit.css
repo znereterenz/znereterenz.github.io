@@ -1,0 +1,44 @@
+body {
+  background-color: #ffdbc5;
+  text-align: center;
+}
+
+h1 {
+  color: #cf1b1b;
+  font-family: "Comic Sans Ms";
+}
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.name {
+  color: #cf1b1b;
+  background-color: white;
+padding-top: 30px;
+padding-bottom: 20px;
+width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  color: #ffdbc5;
+  background-color: #cf1b1b;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Comic Sans Ms";
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+.topnav a.active {
+  background-color: #cf1b1b;
+}
