@@ -1,63 +1,124 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-  <title>Sesh Reacc Bih!</title>
+  <title>Terenz's Resume</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="swagshit.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  </head>
+  <link rel="stylesheet" href="resume.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <header>
-      <div id="nav" class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#shop">Shop</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        </div>
-      <div class="name">
-        <h1>Sesh Reacc</h1>
-        <p>
-          we laugh at ur dumbass s*** !
-          </p>
-        </div>
+<body>
+  <header>
+    <h1>Terenz Dumam-ag</h1>
+    <nav class="nav-bar">
+      <div id="leftNav">
+        <nav id="nav-bar1">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="workedu.html">Work & Education</a>
+            </li>
+            <li>
+              <a href="contactme.html">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div id="rightNav">
+        <nav id="nav-bar2">
+          <ul>
+            <li>
+              <a href="about.html">About Me</a>
+            </li>
+            <li>
+              <a href="hobbies.html">Hobbies</a>
+            </li>
+            <li>
+              <a href="art.html">Art</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      </nav>
 
-      <div class="button">
-        <button type="button"><a href="#subscribe">Subscribe</a></button>
-        </div>
-      </header>
-    <main>
-      <div class="intro">
-        <h3>WTF do we do?</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
-          Id interdum velit laoreet id donec. Imperdiet dui accumsan sit amet nulla facilisi.
-          </p>
-        <img src="" alt="funnygif1">
-        </div>
-      <div class="news">
-        <h3>News and Updates</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
-          Id interdum velit laoreet id donec. Imperdiet dui accumsan sit amet nulla facilisi.
-          </p>
-        <p>
-          <a href="#youtube"><strong>Check out our videos!</strong></a>
-          </p>
-        </div>
-      </main>
-      <footer>
-        <div class="socials">
-          <a href="#facebook">Facebook</a>
-          <a href="#instagram">Instagram</a>
-          <a href="#youtube">Youtube</a>
+
+  </header>
+  <main id="main">
+    <div id="container">
+      <img id="me" src="images/circle-cropped.png" alt="TerenzDumam-ag_pic" height="200" width="200">
+      <span>
+            Hey I'm Terenz Dumam-ag<br>
+        <br>I do web design, fashion styling, and photography<br>
+        <br>Co-Founder of Duffy Clo.<br>
+        <br>NBA 2K League Gamer<br>
+        <br>DJ/Producer
+      </span>
+    </div>
+    <section class="carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper">
+            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+            <img src="images/fashion-runway.jpg" width="570" height="500" alt="fashion_runway">
+            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
           </div>
-          <p>
-            Copyright &copy; Sesh Reac 2021 &trade;
-            </p>
-        </footer>
+        </li>
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+          <img src="images/gaming.png" width="570" height="500" alt="gaming_img">
+          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+          <img src="images/modernArchitecturePhotography.JPG" width="570" height="500" alt="architectural_photography">
+          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+          <img src="images/me_dj.jpg" width="570" height="500" alt="me_dj">
+          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+        </li>
+      </ol>
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+          </li>
+        </ol>
+      </aside>
+    </section>
+    <footer>
+      <div id="footer-socials">
+        <ul>
+          <li>
+            <a href="#instagram"><img id="instaLogo" src="images/instagram-logo.png" alt="insta_logo"></a>
+            </li>
+            <li>
+              <a href="#fb"><img id="fbLogo" src="images/fb-logo.png" alt="insta_logo"></a>
+              </li>
+              <li>
+                <a href="#twitter"><img id="twitterLogo" src="images/twitter-logo.png" alt="insta_logo"></a>
+                </li>
+          </ul>
+        </div>
+      </footer>
+  </main>
+</body>
 
-
-
-    </body>
+</html>
